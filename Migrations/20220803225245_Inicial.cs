@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ProyectoFinal.Migrations
 {
-    public partial class inicial : Migration
+    public partial class Inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -73,7 +73,7 @@ namespace ProyectoFinal.Migrations
                     Monto = table.Column<double>(type: "REAL", nullable: false),
                     LoteriaId = table.Column<int>(type: "INTEGER", nullable: false),
                     TipoJugadaId = table.Column<int>(type: "INTEGER", nullable: false),
-                    NombreLoteria = table.Column<string>(type: "TEXT", nullable: false),
+                    NombreLoteria = table.Column<string>(type: "TEXT", nullable: true),
                     Nombre = table.Column<string>(type: "TEXT", nullable: false),
                     MontoGanancia = table.Column<double>(type: "REAL", nullable: false)
                 },
@@ -276,7 +276,7 @@ namespace ProyectoFinal.Migrations
             migrationBuilder.InsertData(
                 table: "Loterias",
                 columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 1, "Leidsa" });
+                values: new object[] { 1, "Loteka" });
 
             migrationBuilder.InsertData(
                 table: "Loterias",
@@ -286,52 +286,47 @@ namespace ProyectoFinal.Migrations
             migrationBuilder.InsertData(
                 table: "Loterias",
                 columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 3, "Loteka" });
+                values: new object[] { 3, "Loteria Nacional" });
 
             migrationBuilder.InsertData(
                 table: "Loterias",
                 columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 4, "Americana" });
+                values: new object[] { 4, "La Suerte" });
 
             migrationBuilder.InsertData(
                 table: "Loterias",
                 columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 5, "La Suerte" });
+                values: new object[] { 5, "La Gringa" });
 
             migrationBuilder.InsertData(
                 table: "Loterias",
                 columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 6, "Primera" });
-
-            migrationBuilder.InsertData(
-                table: "Loterias",
-                columns: new[] { "LoteriaId", "Nombre" },
-                values: new object[] { 7, "Loteria Nacional" });
+                values: new object[] { 6, "Leidsa" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 1, 0, "Loto" });
+                values: new object[] { 1, 0, "Quiniela Pale" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 2, 0, "Loto Pool" });
+                values: new object[] { 2, 0, "Super Kino" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 3, 0, "Quiniela Pale" });
+                values: new object[] { 3, 0, "Loto" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 4, 0, "Super Kino" });
+                values: new object[] { 4, 0, "Loto Pool" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 5, 0, "Tripleta" });
+                values: new object[] { 5, 0, "Quiniela" });
 
             migrationBuilder.InsertData(
                 table: "tipoJugada",
@@ -341,17 +336,7 @@ namespace ProyectoFinal.Migrations
             migrationBuilder.InsertData(
                 table: "tipoJugada",
                 columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 7, 0, "Quiniela" });
-
-            migrationBuilder.InsertData(
-                table: "tipoJugada",
-                columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 8, 0, "Pale" });
-
-            migrationBuilder.InsertData(
-                table: "tipoJugada",
-                columns: new[] { "TipoJugadaId", "LoteriaId", "NombreJugada" },
-                values: new object[] { 9, 0, "Pega 3 Mas" });
+                values: new object[] { 7, 0, "Pale" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",

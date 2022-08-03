@@ -139,7 +139,6 @@ namespace ProyectoFinal.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("NombreLoteria")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("TipoJugadaId")
@@ -183,7 +182,7 @@ namespace ProyectoFinal.Migrations
                         new
                         {
                             LoteriaId = 4,
-                            Nombre = "La suerte"
+                            Nombre = "La Suerte"
                         },
                         new
                         {
@@ -194,7 +193,7 @@ namespace ProyectoFinal.Migrations
                         {
                             LoteriaId = 6,
                             Nombre = "Leidsa"
-                        },
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -452,7 +451,6 @@ namespace ProyectoFinal.Migrations
                             TipoJugadaId = 7,
                             LoteriaId = 0,
                             NombreJugada = "Pale"
-                        },
                         });
                 });
 

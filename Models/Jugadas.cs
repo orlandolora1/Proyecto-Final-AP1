@@ -9,7 +9,7 @@ public class Jugadas
     public int JugadaId { get; set; }
     public DateTime Fecha { get; set; } = DateTime.Now;
 
-    public string? Monto { get; set; }
+    public double Monto { get; set; }
 
     public int LoteriaId { get; set; }
 

@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-ProyectoFinal-7E9B10C1-744C-4546-8FE7-BF5D3E263A6A</UserSecretsId>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,5 +22,18 @@
     </PackageReference>
     <PackageReference Include="Radzen.Blazor" Version="3.19.11" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Database\proyectofinal.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+	<PropertyGroup>
+		<UseRazorSourceGenerator>false</UseRazorSourceGenerator>
+	</PropertyGroup>
 
 </Project>

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ProyectoFinal.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220802143200_inicial")]
-    partial class inicial
+    [Migration("20220803225245_Inicial")]
+    partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -141,7 +141,6 @@ namespace ProyectoFinal.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("NombreLoteria")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("TipoJugadaId")
@@ -196,7 +195,7 @@ namespace ProyectoFinal.Migrations
                         {
                             LoteriaId = 6,
                             Nombre = "Leidsa"
-                        },
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -454,7 +453,7 @@ namespace ProyectoFinal.Migrations
                             TipoJugadaId = 7,
                             LoteriaId = 0,
                             NombreJugada = "Pale"
-                        },
+                        });
                 });
 
             modelBuilder.Entity("GananciaDetalle", b =>

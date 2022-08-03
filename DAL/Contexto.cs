@@ -94,7 +94,7 @@ public class Contexto : IdentityDbContext
             {
                 TipoJugadaId = 7,
                 NombreJugada = "Pale"
-            },
+            }
         );
 
     }

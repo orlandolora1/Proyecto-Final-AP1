@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages",
-    "\\Pages\\Consulta",
-    "\\Pages\\Registro",
-    "\\wwwroot"
+    "\\BLL",
+    "\\DAL",
+    "\\Shared"
   ],
-  "SelectedNode": "\\DAL",
+  "SelectedNode": "\\Shared\\LoginDisplay.razor",
   "PreviewInSolutionExplorer": false
 }

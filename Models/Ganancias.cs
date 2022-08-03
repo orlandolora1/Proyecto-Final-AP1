@@ -8,7 +8,7 @@ public class Ganancias
 
     public DateTime Fecha { get; set; } = DateTime.Now;
 
-    public string? montoJugado { get; set; }
+    public double montoJugado { get; set; }
 
     public double Totalganancias { get; set; }
 
