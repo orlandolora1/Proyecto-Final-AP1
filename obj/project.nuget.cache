@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JN8xirpX2MjTsLawUyEbdV1mj5eLSyw4F+HICsATlG2uSPSsTv2Xsi0qZYILM/s2cyCBBaJYf6Wxu6d89sE8hA==",
+  "dgSpecHash": "Vn7PTjnX7wN0SMMTpO/rArTy8gpGzFvgKMOxeZCUv7lNbZrJ+33qXiSxJeSdrRjiTVtCDzp+oOigesVbcpVThw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lora\\OneDrive\\Escritorio\\Proyecto F\\ProyectoFinalAp1JeisonReyes-master\\ProyectoFinal.csproj",
+  "projectFilePath": "C:\\Users\\Lora\\OneDrive\\Escritorio\\Proyecto Final AP1\\ProyectoFinal\\ProyectoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lora\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Lora\\.nuget\\packages\\itextsharp-lgpl-core\\1.2.0\\itextsharp-lgpl-core.1.2.0.nupkg.sha512",

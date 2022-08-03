@@ -1,15 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
-    "\\bin\\Release",
-    "\\DAL",
-    "\\For the Areas\\For the Identity",
-    "\\Shared",
-    "\\wwwroot",
-    "\\wwwroot\\css\\open-iconic",
-    "\\wwwroot\\css\\open-iconic\\font"
+    "\\Pages",
+    "\\Pages\\Consulta",
+    "\\Pages\\Registro",
+    "\\wwwroot"
   ],
-  "SelectedNode": "\\ProyectoFinal.csproj",
+  "SelectedNode": "\\DAL",
   "PreviewInSolutionExplorer": false
 }

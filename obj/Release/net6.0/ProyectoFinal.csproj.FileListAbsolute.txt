@@ -1,0 +1,9 @@
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.csproj.AssemblyReference.cache
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.AssemblyInfoInputs.cache
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.AssemblyInfo.cs
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.RazorAssemblyInfo.cache
+C:\Users\Lora\OneDrive\Escritorio\Proyecto Final AP1\ProyectoFinal\obj\Release\net6.0\ProyectoFinal.RazorAssemblyInfo.cs
